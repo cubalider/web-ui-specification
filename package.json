@@ -1,0 +1,22 @@
+{
+  "name": "@yosmy/primitive-ui-spec",
+  "version": "0.1.0",
+  "private": true,
+  "main": "build/index.js",
+  "dependencies": {
+    "prop-types": "~15.7",
+    "react": "~17.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "~7.14",
+    "@babel/core": "~7.14",
+    "@babel/plugin-proposal-export-default-from": "~7.14",
+    "@babel/plugin-proposal-object-rest-spread": "~7.14",
+    "@babel/plugin-transform-react-jsx": "~7.14",
+    "@babel/preset-env": "~7.14",
+    "jest": "~27.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
