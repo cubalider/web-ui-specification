@@ -13,11 +13,20 @@ const validateExtraProps = (props, extras) => {
         return;
     }
 
-    const list = props.join(',');
+    const list = props.join(",");
 
-    throw new Error(`${props.length === 1 ? 'Property' : 'Properties'} "${list}" ${props.length === 1 ? 'is' : 'are'} not allowed on this component`);
+    throw new Error(`${props.length === 1 ? "Property" : "Properties"} "${list}" ${props.length === 1 ? "is" : "are"} not allowed on this component`);
+};
+
+const compileValue = (value) => {
+    if (typeof value === "undefined") {
+        return "";
+    }
+
+    return value;
 };
 
 export {
+    compileValue,
     validateExtraProps
 };
