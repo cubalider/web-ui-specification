@@ -1,98 +1,18 @@
-import Placeholder from './Placeholder';
-import Platform from './Platform';
-import AlignProp from './AlignProp';
-import AvatarProps from './AvatarProps';
-import BlankLayoutProps from './BlankLayoutProps';
-import BorderProp from './BorderProp';
-import ButtonProps from './ButtonProps';
-import CardProps from './CardProps';
-import CheckboxProps from './CheckboxProps';
-import ColorProp from './ColorProp';
-import ContainerProps from './ContainerProps';
-import CountryPickerProps from './CountryPickerProps';
-import DividerProps from './DividerProps';
-import DrawerLayoutProps from './DrawerLayoutProps';
-import ErrorProps from './ErrorProps';
-import FlagProps from './FlagProps';
-import FooterLayoutProps from './FooterLayoutProps';
-import HeaderProps from './HeaderProps';
-import ImageProps from './ImageProps';
-import InputProps from './InputProps';
-import LayoutProps from './LayoutProps';
-import {ListItemProps, BufferListProps} from './ListProps';
-import MarginProp from './MarginProp';
-import ModalProps from './ModalProps';
-import PaddingProp from './PaddingProp';
-import PhoneProps from './PhoneProps';
-import PopoverProps from './PopoverProps';
-import {
-    prepareWebFlexParentStyle,
-    prepareMobileFlexParentStyle,
-    prepareFlexChildStyle,
-    prepareMarginStyle,
-    preparePaddingStyle,
-    prepareWebBorderStyle,
-    prepareMobileBorderStyle,
-    prepareFontStyle,
-} from './Style';
-import ProgressProps from './ProgressProps';
-import SelectItemProps from './SelectItemProps';
-import SelectProps from './SelectProps';
-import SnackbarProps from './SnackbarProps';
-import SwitchProps from './SwitchProps';
-import TabProps from './TabProps';
-import TabsProps from './TabsProps';
-import TextProps from './TextProps';
-import ThemeProps from './ThemeProps';
-import UploadProps from './UploadProps';
-import {validateExtraProps} from './Utils';
-
-export {
-    Placeholder,
-    Platform,
-    AlignProp,
-    AvatarProps,
-    BlankLayoutProps,
-    BorderProp,
-    BufferListProps,
-    ButtonProps,
-    CardProps,
-    CheckboxProps,
-    ColorProp,
-    ContainerProps,
-    CountryPickerProps,
-    DividerProps,
-    DrawerLayoutProps,
-    ErrorProps,
-    FlagProps,
-    FooterLayoutProps,
-    HeaderProps,
-    ImageProps,
-    InputProps,
-    LayoutProps,
-    ListItemProps,
-    MarginProp,
-    ModalProps,
-    PaddingProp,
-    PhoneProps,
-    PopoverProps,
-    prepareWebFlexParentStyle,
-    prepareMobileFlexParentStyle,
-    prepareFlexChildStyle,
-    prepareMarginStyle,
-    preparePaddingStyle,
-    prepareWebBorderStyle,
-    prepareMobileBorderStyle,
-    prepareFontStyle,
-    validateExtraProps,
-    ProgressProps,
-    SelectItemProps,
-    SelectProps,
-    SnackbarProps,
-    SwitchProps,
-    TabProps,
-    TabsProps,
-    TextProps,
-    ThemeProps,
-    UploadProps
-}
+export Layout from "./Layout";
+export Platform from "./Platform";
+export BlankLayout from "./BlankLayout";
+export BufferList from "./BufferList";
+export Button from "./Button";
+export CirclePlaceholder from "./CirclePlaceholder";
+export Container from "./Container";
+export DrawerLayout from "./DrawerLayout";
+export Dropdown from "./Dropdown";
+export EmptyLayout from "./EmptyLayout";
+export FooterLayout from "./FooterLayout";
+export Image from "./Image";
+export Input from "./Input";
+export Json from "./Json";
+export LinePlaceholder from "./LinePlaceholder";
+export Modal from "./Modal";
+export Progress from "./Progress";
+export Text from "./Text";
