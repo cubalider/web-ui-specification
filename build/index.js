@@ -3,365 +3,157 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "Placeholder", {
+Object.defineProperty(exports, "Layout", {
   enumerable: true,
   get: function get() {
-    return _Placeholder["default"];
+    return _Layout2["default"];
   }
 });
 Object.defineProperty(exports, "Platform", {
   enumerable: true,
   get: function get() {
-    return _Platform["default"];
+    return _Platform2["default"];
   }
 });
-Object.defineProperty(exports, "AlignProp", {
+Object.defineProperty(exports, "BlankLayout", {
   enumerable: true,
   get: function get() {
-    return _AlignProp["default"];
+    return _BlankLayout2["default"];
   }
 });
-Object.defineProperty(exports, "AvatarProps", {
+Object.defineProperty(exports, "BufferList", {
   enumerable: true,
   get: function get() {
-    return _AvatarProps["default"];
+    return _BufferList2["default"];
   }
 });
-Object.defineProperty(exports, "BlankLayoutProps", {
+Object.defineProperty(exports, "Button", {
   enumerable: true,
   get: function get() {
-    return _BlankLayoutProps["default"];
+    return _Button2["default"];
   }
 });
-Object.defineProperty(exports, "BorderProp", {
+Object.defineProperty(exports, "CirclePlaceholder", {
   enumerable: true,
   get: function get() {
-    return _BorderProp["default"];
+    return _CirclePlaceholder2["default"];
   }
 });
-Object.defineProperty(exports, "ButtonProps", {
+Object.defineProperty(exports, "Container", {
   enumerable: true,
   get: function get() {
-    return _ButtonProps["default"];
+    return _Container2["default"];
   }
 });
-Object.defineProperty(exports, "CardProps", {
+Object.defineProperty(exports, "DrawerLayout", {
   enumerable: true,
   get: function get() {
-    return _CardProps["default"];
+    return _DrawerLayout2["default"];
   }
 });
-Object.defineProperty(exports, "CheckboxProps", {
+Object.defineProperty(exports, "Dropdown", {
   enumerable: true,
   get: function get() {
-    return _CheckboxProps["default"];
+    return _Dropdown2["default"];
   }
 });
-Object.defineProperty(exports, "ColorProp", {
+Object.defineProperty(exports, "EmptyLayout", {
   enumerable: true,
   get: function get() {
-    return _ColorProp["default"];
+    return _EmptyLayout2["default"];
   }
 });
-Object.defineProperty(exports, "ContainerProps", {
+Object.defineProperty(exports, "FooterLayout", {
   enumerable: true,
   get: function get() {
-    return _ContainerProps["default"];
+    return _FooterLayout2["default"];
   }
 });
-Object.defineProperty(exports, "CountryPickerProps", {
+Object.defineProperty(exports, "Image", {
   enumerable: true,
   get: function get() {
-    return _CountryPickerProps["default"];
+    return _Image2["default"];
   }
 });
-Object.defineProperty(exports, "DividerProps", {
+Object.defineProperty(exports, "Input", {
   enumerable: true,
   get: function get() {
-    return _DividerProps["default"];
+    return _Input2["default"];
   }
 });
-Object.defineProperty(exports, "DrawerLayoutProps", {
+Object.defineProperty(exports, "Json", {
   enumerable: true,
   get: function get() {
-    return _DrawerLayoutProps["default"];
+    return _Json2["default"];
   }
 });
-Object.defineProperty(exports, "ErrorProps", {
+Object.defineProperty(exports, "LinePlaceholder", {
   enumerable: true,
   get: function get() {
-    return _ErrorProps["default"];
+    return _LinePlaceholder2["default"];
   }
 });
-Object.defineProperty(exports, "FlagProps", {
+Object.defineProperty(exports, "Loading", {
   enumerable: true,
   get: function get() {
-    return _FlagProps["default"];
+    return _Loading2["default"];
   }
 });
-Object.defineProperty(exports, "FooterLayoutProps", {
+Object.defineProperty(exports, "Modal", {
   enumerable: true,
   get: function get() {
-    return _FooterLayoutProps["default"];
+    return _Modal2["default"];
   }
 });
-Object.defineProperty(exports, "HeaderProps", {
+Object.defineProperty(exports, "Progress", {
   enumerable: true,
   get: function get() {
-    return _HeaderProps["default"];
+    return _Progress2["default"];
   }
 });
-Object.defineProperty(exports, "ImageProps", {
+Object.defineProperty(exports, "Text", {
   enumerable: true,
   get: function get() {
-    return _ImageProps["default"];
-  }
-});
-Object.defineProperty(exports, "InputProps", {
-  enumerable: true,
-  get: function get() {
-    return _InputProps["default"];
-  }
-});
-Object.defineProperty(exports, "LayoutProps", {
-  enumerable: true,
-  get: function get() {
-    return _LayoutProps["default"];
-  }
-});
-Object.defineProperty(exports, "ListItemProps", {
-  enumerable: true,
-  get: function get() {
-    return _ListProps.ListItemProps;
-  }
-});
-Object.defineProperty(exports, "BufferListProps", {
-  enumerable: true,
-  get: function get() {
-    return _ListProps.BufferListProps;
-  }
-});
-Object.defineProperty(exports, "MarginProp", {
-  enumerable: true,
-  get: function get() {
-    return _MarginProp["default"];
-  }
-});
-Object.defineProperty(exports, "ModalProps", {
-  enumerable: true,
-  get: function get() {
-    return _ModalProps["default"];
-  }
-});
-Object.defineProperty(exports, "PaddingProp", {
-  enumerable: true,
-  get: function get() {
-    return _PaddingProp["default"];
-  }
-});
-Object.defineProperty(exports, "PhoneProps", {
-  enumerable: true,
-  get: function get() {
-    return _PhoneProps["default"];
-  }
-});
-Object.defineProperty(exports, "PopoverProps", {
-  enumerable: true,
-  get: function get() {
-    return _PopoverProps["default"];
-  }
-});
-Object.defineProperty(exports, "prepareWebFlexParentStyle", {
-  enumerable: true,
-  get: function get() {
-    return _Style.prepareWebFlexParentStyle;
-  }
-});
-Object.defineProperty(exports, "prepareMobileFlexParentStyle", {
-  enumerable: true,
-  get: function get() {
-    return _Style.prepareMobileFlexParentStyle;
-  }
-});
-Object.defineProperty(exports, "prepareFlexChildStyle", {
-  enumerable: true,
-  get: function get() {
-    return _Style.prepareFlexChildStyle;
-  }
-});
-Object.defineProperty(exports, "prepareMarginStyle", {
-  enumerable: true,
-  get: function get() {
-    return _Style.prepareMarginStyle;
-  }
-});
-Object.defineProperty(exports, "preparePaddingStyle", {
-  enumerable: true,
-  get: function get() {
-    return _Style.preparePaddingStyle;
-  }
-});
-Object.defineProperty(exports, "prepareWebBorderStyle", {
-  enumerable: true,
-  get: function get() {
-    return _Style.prepareWebBorderStyle;
-  }
-});
-Object.defineProperty(exports, "prepareMobileBorderStyle", {
-  enumerable: true,
-  get: function get() {
-    return _Style.prepareMobileBorderStyle;
-  }
-});
-Object.defineProperty(exports, "prepareFontStyle", {
-  enumerable: true,
-  get: function get() {
-    return _Style.prepareFontStyle;
-  }
-});
-Object.defineProperty(exports, "ProgressProps", {
-  enumerable: true,
-  get: function get() {
-    return _ProgressProps["default"];
-  }
-});
-Object.defineProperty(exports, "SelectItemProps", {
-  enumerable: true,
-  get: function get() {
-    return _SelectItemProps["default"];
-  }
-});
-Object.defineProperty(exports, "SelectProps", {
-  enumerable: true,
-  get: function get() {
-    return _SelectProps["default"];
-  }
-});
-Object.defineProperty(exports, "SnackbarProps", {
-  enumerable: true,
-  get: function get() {
-    return _SnackbarProps["default"];
-  }
-});
-Object.defineProperty(exports, "SwitchProps", {
-  enumerable: true,
-  get: function get() {
-    return _SwitchProps["default"];
-  }
-});
-Object.defineProperty(exports, "TabProps", {
-  enumerable: true,
-  get: function get() {
-    return _TabProps["default"];
-  }
-});
-Object.defineProperty(exports, "TabsProps", {
-  enumerable: true,
-  get: function get() {
-    return _TabsProps["default"];
-  }
-});
-Object.defineProperty(exports, "TextProps", {
-  enumerable: true,
-  get: function get() {
-    return _TextProps["default"];
-  }
-});
-Object.defineProperty(exports, "ThemeProps", {
-  enumerable: true,
-  get: function get() {
-    return _ThemeProps["default"];
-  }
-});
-Object.defineProperty(exports, "UploadProps", {
-  enumerable: true,
-  get: function get() {
-    return _UploadProps["default"];
-  }
-});
-Object.defineProperty(exports, "validateExtraProps", {
-  enumerable: true,
-  get: function get() {
-    return _Utils.validateExtraProps;
+    return _Text2["default"];
   }
 });
 
-var _Placeholder = _interopRequireDefault(require("./Placeholder"));
+var _Layout2 = _interopRequireDefault(require("./Layout"));
 
-var _Platform = _interopRequireDefault(require("./Platform"));
+var _Platform2 = _interopRequireDefault(require("./Platform"));
 
-var _AlignProp = _interopRequireDefault(require("./AlignProp"));
+var _BlankLayout2 = _interopRequireDefault(require("./BlankLayout"));
 
-var _AvatarProps = _interopRequireDefault(require("./AvatarProps"));
+var _BufferList2 = _interopRequireDefault(require("./BufferList"));
 
-var _BlankLayoutProps = _interopRequireDefault(require("./BlankLayoutProps"));
+var _Button2 = _interopRequireDefault(require("./Button"));
 
-var _BorderProp = _interopRequireDefault(require("./BorderProp"));
+var _CirclePlaceholder2 = _interopRequireDefault(require("./CirclePlaceholder"));
 
-var _ButtonProps = _interopRequireDefault(require("./ButtonProps"));
+var _Container2 = _interopRequireDefault(require("./Container"));
 
-var _CardProps = _interopRequireDefault(require("./CardProps"));
+var _DrawerLayout2 = _interopRequireDefault(require("./DrawerLayout"));
 
-var _CheckboxProps = _interopRequireDefault(require("./CheckboxProps"));
+var _Dropdown2 = _interopRequireDefault(require("./Dropdown"));
 
-var _ColorProp = _interopRequireDefault(require("./ColorProp"));
+var _EmptyLayout2 = _interopRequireDefault(require("./EmptyLayout"));
 
-var _ContainerProps = _interopRequireDefault(require("./ContainerProps"));
+var _FooterLayout2 = _interopRequireDefault(require("./FooterLayout"));
 
-var _CountryPickerProps = _interopRequireDefault(require("./CountryPickerProps"));
+var _Image2 = _interopRequireDefault(require("./Image"));
 
-var _DividerProps = _interopRequireDefault(require("./DividerProps"));
+var _Input2 = _interopRequireDefault(require("./Input"));
 
-var _DrawerLayoutProps = _interopRequireDefault(require("./DrawerLayoutProps"));
+var _Json2 = _interopRequireDefault(require("./Json"));
 
-var _ErrorProps = _interopRequireDefault(require("./ErrorProps"));
+var _LinePlaceholder2 = _interopRequireDefault(require("./LinePlaceholder"));
 
-var _FlagProps = _interopRequireDefault(require("./FlagProps"));
+var _Loading2 = _interopRequireDefault(require("./Loading"));
 
-var _FooterLayoutProps = _interopRequireDefault(require("./FooterLayoutProps"));
+var _Modal2 = _interopRequireDefault(require("./Modal"));
 
-var _HeaderProps = _interopRequireDefault(require("./HeaderProps"));
+var _Progress2 = _interopRequireDefault(require("./Progress"));
 
-var _ImageProps = _interopRequireDefault(require("./ImageProps"));
-
-var _InputProps = _interopRequireDefault(require("./InputProps"));
-
-var _LayoutProps = _interopRequireDefault(require("./LayoutProps"));
-
-var _ListProps = require("./ListProps");
-
-var _MarginProp = _interopRequireDefault(require("./MarginProp"));
-
-var _ModalProps = _interopRequireDefault(require("./ModalProps"));
-
-var _PaddingProp = _interopRequireDefault(require("./PaddingProp"));
-
-var _PhoneProps = _interopRequireDefault(require("./PhoneProps"));
-
-var _PopoverProps = _interopRequireDefault(require("./PopoverProps"));
-
-var _Style = require("./Style");
-
-var _ProgressProps = _interopRequireDefault(require("./ProgressProps"));
-
-var _SelectItemProps = _interopRequireDefault(require("./SelectItemProps"));
-
-var _SelectProps = _interopRequireDefault(require("./SelectProps"));
-
-var _SnackbarProps = _interopRequireDefault(require("./SnackbarProps"));
-
-var _SwitchProps = _interopRequireDefault(require("./SwitchProps"));
-
-var _TabProps = _interopRequireDefault(require("./TabProps"));
-
-var _TabsProps = _interopRequireDefault(require("./TabsProps"));
-
-var _TextProps = _interopRequireDefault(require("./TextProps"));
-
-var _ThemeProps = _interopRequireDefault(require("./ThemeProps"));
-
-var _UploadProps = _interopRequireDefault(require("./UploadProps"));
-
-var _Utils = require("./Utils");
+var _Text2 = _interopRequireDefault(require("./Text"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
